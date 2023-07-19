@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tree"
+    tools:context=".login">
+    <androidx.cardview.widget.CardView
+        android:layout_width="412dp"
+        android:layout_height="731dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="1dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/tree">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="103dp"
+                android:layout_height="52dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="145dp"
+                android:layout_marginTop="135dp"
+                android:layout_marginEnd="163dp"
+                android:layout_marginBottom="542dp"
+                android:text="Login"
+                android:textColor="#EF0303"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/inusername"
+                android:layout_width="wrap_content"
+                android:layout_height="64dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="223dp"
+                android:layout_marginEnd="52dp"
+                android:layout_marginBottom="444dp"
+                android:background="@drawable/edittext_back"
+                android:backgroundTint="#00F6F3F3"
+                android:backgroundTintMode="screen"
+                android:drawableLeft="@drawable/baseline_person_outline_24"
+                android:gravity="center"
+
+                android:hint="Email"
+                android:textColorHint="@color/black"
+                android:textColor="@android:color/black" ></EditText>
+
+
+            <EditText
+
+                android:id="@+id/inpassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="308dp"
+                android:layout_marginEnd="55dp"
+                android:layout_marginBottom="364dp"
+                android:background="@drawable/edittext_back"
+                android:drawableLeft="@drawable/baseline_info_24"
+                android:gravity="center"
+                android:hint="password"
+                android:textColorHint="@color/black"
+                android:textColor="@android:color/black" ></EditText>
+
+            <Button
+                android:id="@+id/lllogin"
+                android:layout_width="wrap_content"
+
+                android:layout_height="48dp"
+                android:layout_alignParentStart="true"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="147dp"
+                android:layout_marginTop="476dp"
+                android:layout_marginEnd="177dp"
+                android:layout_marginBottom="207dp"
+
+                android:background="@drawable/lofin_back"
+                android:text="login"
+
+
+                android:textStyle="bold"></Button>
+
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="25dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="396dp"
+                android:layout_marginEnd="188dp"
+                android:layout_marginBottom="310dp"
+                android:text="dont have account ?"
+                android:textColor="#FBF7F7"
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/here"
+                android:layout_width="120dp"
+                android:layout_height="32dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="244dp"
+                android:layout_marginTop="397dp"
+                android:layout_marginEnd="49dp"
+                android:layout_marginBottom="303dp"
+                android:background="@drawable/edittext_back"
+                android:gravity="center"
+                android:text="click here."
+                android:textColor="#252DBF"
+                android:textColorHighlight="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
